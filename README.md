@@ -1,5 +1,5 @@
 ﻿
-# Predict weekly household global active power comsumption 
+# Predict weekly household global active power consumption 
 
 ### Problem Statement
 Problem : Given input data from previous week (7 Days ~ 7 timesteps), predict the mean global_active_power for the next week.  
