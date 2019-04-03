@@ -6,10 +6,7 @@ Problem : Given input data from previous week (7 Days ~ 7 timesteps), predict th
 
 Data Source : [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/individual+household+electric+power+consumption)
 
-### Exploratoy Data Analysis  (Please see the jupyter notebook for an in-depth analysis) :
-- The data consists of missing values which were replaced with mean grouped over respective year for a respective feature.
-- The data was resampled on daily level. 
-- - **Note** : ** After resampling had just 1443 observations and 7 features**.
+### Exploratoy Data Analysis  (Please see the jupyter notebook for an in-depth analysis)
 
 ### Model Results
 
