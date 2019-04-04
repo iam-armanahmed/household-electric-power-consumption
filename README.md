@@ -37,14 +37,14 @@ Data Source : [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/d
 
 Analysis of CNN, LSTM, CNN-LSTM and ConvLSTM Models:
 
-Model Performance Evaluation Plots :
+> Model Performance Evaluation Plots :
 
-1 - Plotting the models loss (MSE) and metric (RMSE) indicates a good fit rather than over-fit or an undner-fit. 
-2 - It is interesting to observe that the training loss (MSE) and metric (RMSE) is more than testing. It can be stated that training data consists of data with more complex underlying latent structure as compared to testing data.
+> 1 - Plotting the models loss (MSE) and metric (RMSE) indicates a good fit rather than over-fit or an undner-fit. <br>
+> > 2 - It is interesting to observe that the training loss (MSE) and metric (RMSE) is more than testing. It can be stated that training data consists of data with more complex underlying latent structure as compared to testing data. <br>
 
 True values VS Preicted Values
 
-1- Time dealy in learning. 
-2- It is observed that ConvLSTM2D model performs much better (RMSE) than other models (CNN, LSTM and CNN-LSTM). But the data available for training was very less considering deep learning models, hence given more data, model performance can be improved to make more accurate predictions (weekly prediction).
+> > 1- Time dealy in learning.  <br>
+> > 2- It is observed that ConvLSTM2D model performs much better (RMSE) than other models (CNN, LSTM and CNN-LSTM). But the data available for training was very less considering deep learning models, hence given more data, model performance can be improved to make more accurate predictions (weekly prediction).
 
 
