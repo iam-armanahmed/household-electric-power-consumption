@@ -35,3 +35,16 @@ Data Source : [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/d
 ![ConvLSTM Model prediction vs true values plot](https://github.com/iam-armanahmed/household-electric-power-consumption/blob/master/Images/ConvLstm2D%20Modelpred_vs_true.png)
 
 
+Analysis of CNN, LSTM, CNN-LSTM and ConvLSTM Models:
+
+Model Performance Evaluation Plots :
+
+1 - Plotting the models loss (MSE) and metric (RMSE) indicates a good fit rather than over-fit or an undner-fit. 
+2 - It is interesting to observe that the training loss (MSE) and metric (RMSE) is more than testing. It can be stated that training data consists of data with more complex underlying latent structure as compared to testing data.
+
+True values VS Preicted Values
+
+1- Time dealy in learning. 
+2- It is observed that ConvLSTM2D model performs much better (RMSE) than other models (CNN, LSTM and CNN-LSTM). But the data available for training was very less considering deep learning models, hence given more data, model performance can be improved to make more accurate predictions (weekly prediction).
+
+
